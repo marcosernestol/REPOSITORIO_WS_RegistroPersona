@@ -1,0 +1,16 @@
+{
+  "name": "ws_registropersona",
+  "version": "1.0.0",
+  "description": "Primer Prueba de Web Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos Lozano",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^16.4.0",
+    "pg": "^8.6.0"
+  }
+}
