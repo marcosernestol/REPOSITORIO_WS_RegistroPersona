@@ -2,9 +2,9 @@ const pool = require("../config/config_bd");
 
 // aqui comenzamos a codificar el servicio .
 
-const obtenerVista = async(req, res) => {
+const obtenerUsuarios_RegistroPersona = async(req, res) => {
     try {
-        const resultado = await pool.query("select * from rp_mi_vista1 ");
+        const resultado = await pool.query("select * from usuario_ejemplo_simple ");
         if (resultado.rowCount > 1) {
             res.status(200).send( // 200= todo bien , 400=No autorizado 404=No encontrado , 500=Error de Servidor
                 {
@@ -12,7 +12,7 @@ const obtenerVista = async(req, res) => {
                     respuesta: resultado.rows
                 })
         } else {
-            res.status(200).send({
+            res.status(500).send({
                 ok: false,
                 respuesta: "Sin Resultados"
             })
@@ -26,4 +26,4 @@ const obtenerVista = async(req, res) => {
     }
 }
 
-module.exports = { obtenerVista }
+module.exports = { obtenerUsuarios_RegistroPersona }
