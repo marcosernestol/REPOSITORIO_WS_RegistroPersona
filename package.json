@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon ./start_server_www_nodemon.js"
+    "start": "nodemon ./bin/start_miws.js"
   },
   "author": "Marcos Lozano",
   "license": "ISC",
@@ -15,7 +15,9 @@
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "node": "^16.4.0",
-    "pg": "^8.13.1"
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
