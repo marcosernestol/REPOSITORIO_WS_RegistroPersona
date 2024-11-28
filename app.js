@@ -1,5 +1,7 @@
 
 // Este archivo tambien lo llaman comunmente index.js ó app.js  
+// Para ejecutar el WS con NODEMON, abrimos una consola No importa si es de PowerShell o de cMD
+// y escribimos el comendo :>  npm start
 
 const express = require("express"); // aqui cargamos o importamos el módulo express
                                     // Se usa para cargar funciones del middleware en una dirección particular 
@@ -24,7 +26,8 @@ app.use((req, res, next) => {
 
  //----------Cargar archivos de RUTAS
  //app.use(require("./routes/consultas_registro_persona.js"));
-require('./server/routes/usuarios')(app);
+require('./server/routes/usuarios')(app); // esta instruccion incluye todos los app del controlador usuarios.
+require('./server/routes/RegistroPersona')(app);
 
     //---------- Mas temas de Rutas
     // Rutas

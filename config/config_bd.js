@@ -1,5 +1,5 @@
 
-/*
+
 const Pool = require('pg').Pool;
 
 const pool = new Pool({
@@ -19,4 +19,3 @@ pool.connect(err => {
 
 module.exports = pool;
 
-*/

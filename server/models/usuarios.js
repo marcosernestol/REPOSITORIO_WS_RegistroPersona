@@ -23,4 +23,5 @@ module.exports=(sequelize,DataTypes)=>{
     });
 
     return usuarios; 
-}
+};
+
