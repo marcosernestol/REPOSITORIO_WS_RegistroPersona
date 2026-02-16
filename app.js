@@ -1,7 +1,8 @@
 
 // Este archivo tambien lo llaman comunmente index.js ó app.js  
 // Para ejecutar el WS con NODEMON, abrimos una consola No importa si es de PowerShell o de cMD
-// y escribimos el comendo :>  npm start
+// y escribimos el comando :>  npm start
+// Y podemos probar en algún navegador con la URL:  http://localhost:5999
 
 const express = require("express"); // aqui cargamos o importamos el módulo express
                                     // Se usa para cargar funciones del middleware en una dirección particular 

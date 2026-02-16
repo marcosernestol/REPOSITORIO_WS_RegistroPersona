@@ -3,6 +3,7 @@
 
 // Esto si funciona , Vamos a utilizar el Mismo modelo de Usuarios ( para altas, ediciones y actualizaciones)
 const Usuarios=require('../models').usuarios;
+
 function RegistroPersonaGet(req, res){
        Usuarios.findAll(
              {
@@ -25,7 +26,7 @@ module.exports={
 
 
 
-// ESTE SU FUNCIONABA, PERO ANTES DE METERME CON EL SEQUELIZER :( ya despues ya no le entendí como debería de funcionar.)
+// ESTE SI FUNCIONABA, PERO ANTES DE METERME CON EL SEQUELIZER :( ya despues ya no le entendí como debería de funcionar.)
 // const pool = require("../config/config_bd");
 // const RegistroPersona = async(req, res) => {
 //     try {
