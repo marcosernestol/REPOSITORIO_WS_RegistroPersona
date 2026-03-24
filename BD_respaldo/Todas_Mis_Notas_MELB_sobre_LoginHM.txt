@@ -1,0 +1,330 @@
+😁 Windows+.		✅  		https://getemoji.com/  		🎓		Solo para UTF8
+LANGCHAIN_MODEL
+admin  poner@algo.com    123456
+user2   poner2@algo.com   123456
+
+Marcos Lozano  477 676 4022  marcos.itsmarts@gmail.com  Lozano11  
+
+https://www.youtube.com/@mouredev
+https://www.youtube.com/watch?v=HUcIxt1v0wU   --LangChain Curso Gratuito
+
+https://ailearna.com/  		nJg$gYz95.cj7SJ		marcos.itsmarts@gmail.com	
+
+https://www.figma.com/    	Figma-ITSmartS 		figm@:iT-Sm@rtS/2K{24}   		figmaits@itsmarts.com.mx  		<-Admin ITSmarts
+https://www.figma.com/    	Marcos Lozano 		Nu3voPa$$word  			marcos_ernestol@hotmail.com  	<-Marcos Personal
+  
+https://github.com/       	itsmarts   			 ItsDesarrollo2020. 			desarrollo@itsmarts.com.mx     	<-Admin ITSmarts
+https://github.com/       	marcosernestol   		 Nu3voPa$$word      			marcos_ernestol@hotmail.com  	<-Dueño
+https://github.com/       	marcosernestolozano    	 Mlozano11  				mlozano@itsmarts.com.mx        	<-Invitado
+
+udemy ------------ok https://www.udemy.com/     marcos.itsmarts@gmail.com  Lozano11
+gmail -------------ok https://mail.google.com/      marcos.itsmarts@gmail.com  Lozano11
+
+----------------------------------------
+http://localhost/LoginHM/			       SI FUNCIONO DESDE MI EQUIPO
+http://localhost:5460/LoginHM/                               Si Funcionó estando dentro del servidor 2
+http://itsmarts.fortiddns.com:5460/LoginHM/          Si Funcionó cuando lo llamo desde Fuera   :)
+
+----------------------------------------------------
+
+	GeoModulos_WS
+	     >nvm  use 22.12.0   
+	     >node --version    = 22.12.0
+	     >nodemon  src/app.js	
+	
+	GeoModulos_Front
+	     >ng --version       = 20.0.4
+	     >ng serve   
+
+
+
+------------------------------------------------------
+
+REPOSITORIO_WS_RegistroPersona
+   nvm use 16.4.0	       (asegurar)	
+   npm start		       (arrancar)
+   http://localhost:5999/                                         (probar)
+   http://localhost:5999/api/RegistroPersona        (probar)
+
+LoginHM 
+   ng serve -o
+
+REPOSITORIO_RegistroPersonas
+     >go live
+
+
+Ollama ( Es un Gestor de LLMs ) -------------------------------------------
+     Primero se instala: desde  			https://ollama.com/    bajamos el instalador de windows   
+     Luego se Ejecuta un modelo desde CMD:	ollama -v			(cversion de ollama)
+						ollama list			(lista de modelos instalados )
+						ollama pull llama3.2		(Instalar o descargar un modelo )
+						ollama run llama3.2		(Corer un modelo)
+     Y finalmente se Integra con API REST:	
+	
+
+
+
+---------------------------------------------------------------------------------
+ODBC     ->     PostGIS_mex_schema_carto
+server     ->     localhost
+user        ->     postgres
+pwd       ->      sqldevserver
+port       ->      5432
+BD         ->      mex
+schema  ->     carto
+
+
+-------------------------------------------------------------------------------------------
+CHROME ------------------------------ ok 145.0.7632   o  algun navegador moderno
+WINDOWS-----------------------------Win-11 win32 x64
+
+
+VISUAL STUDIO --------------------------------------
+		visual studio------ok 1.109.5
+
+
+POWER SHELL ( Usos principales ) --------------------
+  * Automatización de tareas: como Actions de GitHub
+  * Gestión de sistemas:usuarios, servicios, procesos y el registro. 
+  * Gestión de infraestructura en la nube:  como Azure y AWS.
+  * Manipulación de objetos: A diferencia de las consolas tradicionales que devuelven texto, PowerShell  manipula objetos, facilitando la extracción de datos y la automatización..
+  * Administración de red y seguridad: Permite configurar redes y gestionar políticas de seguridad.
+  * Control de aplicaciones:  Ayuda en el despliegue, configuración y prueba de softwar
+
+	$PSVersionTable 		 				(Para revisar la version de PowerShell, en mi caso tengo la version 5.1.22621 )
+	$PSVersionTable.PSVersion					(Para revisar si tengo la version7 Instalada (Se necesitan ambas; la 7 depende de la 5)
+	winget install --id Microsoft.PowerShell --source winget	(Para Instalar PowerShell 7, Necesario para mi CI-DI )
+	Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine  	(cambié políticas de permisos )
+	Get-Service "actions.runner.*"					 (Para Listar los actions.runner )
+	./run.cmd							(Para correr el Actions Runner; Con PowerShell; Desde el directorio "C:\actions-runner" )
+
+
+
+
+GIT -----------------------------------------ok 2.31.1
+	git –-version
+	git config --global user.name "Tu nombre"	(Establecer NombreUsuario global actual)
+	git config --global user.email "Tu correo"	(Establecer E-mail global actual)
+
+	git config --global user.name		(Ver NombreUsuario global actual)
+	git config --global user.email		(Ver E-mail global actual )
+	
+	git config --global –list		(Ver configuración global actual)
+
+	git init
+	git add .
+	git commit -m "Mensaje descriptivo"
+	git push -u origin main 
+
+
+     …... crear un nuevo repositorio en la línea de comandos
+	echo "# LoginHM" >> README.md 
+	git init 
+	git add README.md 
+	git commit -m "primer commit" 
+	git branch -M main 
+	git remote add origin https://github.com/marcosernestol/LoginHM.git
+	 git push -u origin main
+
+     ..... enviar un repositorio existente desde la línea de comandos
+	git remote add origin https://github.com/marcosernestol/LoginHM.git
+	git rama -M main
+	git push -u origen main
+
+
+GIT HUB  --------------------------------
+	https://github.com/   marcosernestol  Nu3voPa$$word    marcos_ernestol@hotmail.com  <-Dueño
+	https://github.com/  			-> Crear una cuenta en GitHub  
+	https://docs.github.com/es/actions    	->  Documentación de Actions de GitHub
+
+NODE-JS-------------------------------  ok 24.13.1        (Version 24.0.0- Ultima LTS Feb2026 )
+
+	node –-version
+	npm   version                (OJO, Sin el doble guin medio ---ok 11.8.1 )
+	npm install pm2 -g    	(Instalar PM2 “Process Manager 2”)
+	pm2 --version
+	cd ..--v
+	cd .\cargador\
+	pm2 start index.js --name Cargador
+	pm2 logs 2 --lines 6
+	pm2 save
+	pm2 resurrect
+
+
+NODEMON ---------------------------
+
+	npm install -g nodemon	
+	nodemon –version    
+
+
+NODE VERSION MANAGER ----------------------------
+
+	nvm version             (OJO, Sin el doble guión medio, ok 1.2.2 )
+	nvm list
+	nvm install 24 	      --Para instalar la versión 24
+	nvm use 16.4.0       --Para usar una versión específica
+	nvm use 20.19.0
+
+
+
+ANGULAR CLI --------------------------  ok 21.1.4         (Version 21.0.0- Ultima LTS Feb2026 )
+
+
+	npm install -g @angular/cli                  (Instala la version mas reciente)
+	npm install -g @angular/cli@18.2.0     (Inslalar una version especifica)
+
+	npm uninstall -g @angular/cli              (DESINSTALAR Angular)
+
+	npm install -g @angular/cli@14    (Para Instalar globalmente  Angular CLI 14)
+
+	ng --version     (En versiones más antiguas de Angular, Solo muestra la versión de Angular)
+	ng   version      (En versiones más actuales de Angular, Muestra la versión de Angular CLI, node, npm y OS)
+
+ERRORES COMINES AL INSTALAR ANGULAR ---------------------
+
+	1.-  Si se presenta el error de “La Ejecución de Scripts está deshabilitada.. “ , ejecutar el comendo:
+		>Set-ExecutionPolicy RemoteSinned	(Si se presenta el error de “La Ejecución de Scripts está deshabilitada.. “ ) 
+
+	2.- Si  se presenta el error: "Cannot find module '@npmcli/config'... "  indica una instalación corrupta de npm. Reinstalar 
+		Reinstalar la versión de Node.js  (abre una terminal con permisos de Administrador.)
+			>nvm uninstall 24.0.0		(Elimina la versión dañada)
+			>nvm install 24.0.0		(Vuelve a instalarla. Asegúrate de tener una conexión estable)
+			>nvm use 24.0.0		(Actívala de nuevo)
+		 Verifica npm antes de instalar Angular ( Antes de intentar instalar el CLI de Angular )
+			> npm -v
+		Si el error persiste, intenta instalar la versión LTS (Long Term Support)  que suele ser más estable
+			>nvm install lts
+			>nvm use lts
+
+
+Crear NUEVO PROYECTO DE ANGULAR -------------------
+
+	ng new LoginHM				 (RECOMENDADO- Nuevas Versiones de Angular) selecciona CSS=si, SSR=no,  IA=GitHub-Copilot
+	ng new LoginHM --standalone=false 		 (Versiones Anteriores de Angular)  selecciona CSS=si, SSR=no, IA=GitHub-Copilot
+
+	ng serve -o  				(Para correr el proyecto angular creado, en http://localhost:4200/)
+	ng build				(Para construir un archivo de distribución)
+	ng build  --base-href /LoginHM/	(Este Es El Bueno !! construir para instalar en una “Ruta debajo de la raiz”)
+
+
+
+COMPONENTE:  compdoc  ------------  SE SUPONE QUE ES COMO DOXIGEN PARA ANGULAR,
+--- link pagina de documentación oficial de compdoc:  https://compodoc.app/guides/getting-started.html
+-- Link de un video de cómo se usa compdoc:     https://www.youtube.com/watch?v=k1EDQfkMu2c
+
+	npm install -D @compodoc/compodoc	--Desde la terminal
+
+	Luego, en la sección "scripts" de tu archivo package.json, agregar:  
+		{
+		  "scripts": {
+		    "docs": "compodoc -p tsconfig.app.json",
+		    "docs:serve": "compodoc -p tsconfig.app.json -s"
+		  }
+		}
+
+	Luego agregar comentarios JSDoc/TSDoc en los componentes,servicios y métodos del código.
+		>npm run docs 			(Este comando me permitió Crear la documentacion)
+		>npx compodoc -s -r 8090 		(Inicia un servidor local para ver la documentacion).
+		>npx compodoc -p tsconfig.doc.json"     (Genera una documentación "recortada" ).
+
+
+
+
+https://www.youtube.com/watch?v=ajofVULutlI 	-- Un video1 para comenzar a ver que es testing (escribir código para probar nuestro código)
+https://www.youtube.com/watch?v=WtB1dkmbECc	-- Un video2 de la serie
+https://www.youtube.com/watch?v=jvXDX_H0_nI 	-- Un video3 de la serie
+https://www.youtube.com/watch?v=LFc2VPMnAHM 	-- Un video4 y ultimo de la serie
+
+JEST -----------------------------Pruebas Automatizadas en Angulas con Jest ( Archivos con nombre->     algo-api.service.spec.ts )
+	npm run test:jest  		--Para correr todos los Test de Jest
+
+
+ViTest -----------------------------Pruebas Automatizadas en Angulas con ViTest ( Archivos con nombre->     algo-api.service.vitest.spec.ts )
+Para FRONT
+	npm run test:vitest  		--para FRONT - LoginHM - Para correr todos los Test de ViTest
+					-- Jest NO tiene una pantalla como Karma o ViTest
+
+	npm install -D @vitest/ui	-- Para instalar la interfaz UI de vitest
+	npx vitest --ui			-- Para lanzar las pruebas ViTest con la UI -para FRONT - LoginHM
+
+  Para BACKEND WS
+	npm test 			-- Para lanzar las pruebas ViTest DESDE BACKEND
+	npx vitest run 			-- OTRA OPCION Para lanzar las pruebas ViTest DESDE BACKEND
+	npx vitest --ui			-- Este comando También funciona Para lanzar las pruebas ViTest con la UI -para WS desde REPOSITORIO_WS_RegistroPersona
+
+
+
+IIS  y URL Rewrite  -----------------------------------para Publicar el proyecto en  IIS--------------
+
+ (desde “Buscar” aplicaciones instaladas de Windows)
+
+	Activar Características de Windows 				(Abre ventana de características de windows)
+		Activar Casilla: IIS ->
+			y las sub-casillas:  Herramientas de Admon web 
+			y Servicios World Wide Web)
+		Activar Casilla: Núcleo de web hospedable de IIS 
+
+	Instalar Módulo “URL Rewrite”   	(Download desde:   https://www.iis.net/downloads/microsoft/url-rewrite )
+
+	rewrite_amd64_es-ES.msi                      (En la página se puede bajar en diferentes idiomas para x86 y x64)
+						La principal diferencia es que x64 (64 bits) procesa más datos simultáneamente y soporta enormes cantidades de memoria RAM 						(más de 4 GB), ideal para equipos modernos, mientras que x86 (32 bits) está limitado a un máximo de 4 GB de RAM, siendo una 						arquitectura antigua.
+
+	Crear el archivo “web.config”	(Creo que solo para WS; en el directorio:  c:\inetpub\wwwroot\LoginHM\   )
+
+	Desde el IIS -> Sitios->Defaul Web Site-> Agregar Aplicación  
+						Alias: LoginHM  y  RutaFisica:  c:\inetpub\wwwroot\LoginHM\browser
+
+
+
+
+POSTGRESQL , POSTGIS , STACKBUILDER Y PGADMIN ------------------------
+
+	Postgresql--------ok 18.2                    (Version 17.1.0- Ultima LTS Feb2026 )
+	postgis-----------ok 3.6                      (Version 3.6.1- Ultima LTS Feb2026 )
+	pgadmin4--------ok 9.12                    (Version 9.12.0- Ultima LTS Feb2026 )
+
+	https://www.postgresql.org/					--pagina oficial download Postgresql
+	https://www.pgadmin.org/download/pgadmin-4-windows/	--pagina oficial download PgAdmin
+
+	PostgreSQL	postgres	sqldevserver
+	SELECT version();        
+	SELECT PostGIS_Version(); 
+
+     Para cerrar Sesiones de Postgresql -------------------
+
+	SELECT pg_terminate_backend(pid)
+	FROM pg_stat_activity
+	WHERE  pid <> pg_backend_pid();             -- No cerrar tu propia sesión
+
+
+
+JAVA-JRE  (Java Runtime Enviroment ) -- o --JAVA-JDK ( Java Development KIT )----------ok 21     (Version 21.0.0- Ultima LTS Feb2026 )
+Para probar y o saber si está instalado Java; en caja de búsqueda:  "configurar Java"
+
+	https://www.java.com/es/	-- Pagina oficial download Java 
+						   JDK (Java Development KIT; incluye JRE)
+						ó JRE  (Java Run Enviroment ; incluye Java Virtual Machine JVM) 
+
+
+GEOSERVER -----------------------------ok 2.28.2               (Version 2.28.2- Ultima LTS Feb2026 )
+
+	https://geoserver.org/						-- Pagina oficial download Geoserver
+	http://localhost:8080/geoserver/web   	admin  	geoserver	--Para probar localhost
+
+
+
+QGIS------------------------------------------------    -ok 3.44.7 Solothurn     (Version 3.34.0- Prizren- Ultima LTS Feb2026 )
+
+
+MAPINFO -------------------------------------------
+	Mapinfo---------ok 15.0
+	MapBasic--------ok 15.0
+	MapBasic IDE----ok 1.5
+
+
+
+POSTMAN -----------------------------------------  ok11.85.1               (Version 11.0.0- Ultima LTS Feb2026 )
+
+
+
+DOCKER  ---------------------------------------------ok 4.61.0
