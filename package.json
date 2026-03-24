@@ -4,7 +4,8 @@
   "description": "Primer Prueba de Web Services",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "start": "nodemon ./bin/start_miws.js"
   },
   "author": "Marcos Lozano",
@@ -20,6 +21,7 @@
     "dotenv": "^17.3.1",
     "express": "^4.21.1",
     "langchain": "^1.2.30",
+    "mysql2": "^3.20.0",
     "node": "^16.4.0",
     "pg": "^8.13.1",
     "pg-hstore": "^2.3.4",
@@ -28,6 +30,8 @@
     "xhr2": "^0.2.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.11",
+    "supertest": "^7.2.2",
+    "vitest": "^0.25.8"
   }
 }
