@@ -42,19 +42,38 @@ http://itsmarts.fortiddns.com:5460/LoginHM/          Si Funcionó cuando lo llam
 
 REPOSITORIO_WS_RegistroPersona
    nvm use 16.4.0	       (asegurar)	
-   npm start		       (arrancar)
+   npm start		       (arrancar, dentro de Visual Studio)
+   pm2 start bin/start_miws.js --name ws-registro-persona      (Arrancar como servicio)
+   pm2 save		(crea un archivo "dump" con tus procesos activos)
+   pm2 startup		Se usa una sola vez (o tras actualizar Node.js) para configurar PM2 como un servicio del sistema operativo. 
+			Genera el script necesario para que el propio PM2 se inicie automáticamente cada vez que el servidor se reinicie.
+   pm2 resurrect  	(Restaurar el ultimo "dump" Salvado)
+
    http://localhost:5999/                                         (probar)
    http://localhost:5999/api/RegistroPersona        (probar)
 
+
+
+
 LoginHM 
+	npm install	-- Usarlo Durante el desarrollo local, cuando quieres añadir nuevos paquetes, borrarlos o actualizar Versiones
+	npm ci		-- (Clean Install o Continuous Integration) Realiza instalación limpia y exacta de dependencias ,diseñado para CI, sistemas de despliegue o Docker
+ 
 	ng serve -o
 	ng build  --base-href /LoginHM/
 
-	ng build --output-path=dist/loc  --configuration local   --base-href /LoginHM/			--(Este Es El Bueno !! construir para instalar en una “Ruta debajo de la raiz”)
+	ng build --output-path=dist/loc  --configuration local   --base-href /LoginHM/		--(Este Es El Bueno !! construir para instalar en una “Ruta debajo de la raiz”)
 	ng build --output-path=dist/devS1 --configuration development  --base-href /LoginHM/
 	ng build --output-path=dist/proS2 --configuration production --base-href /LoginHM/
 
+Versionador LoginHM
+	npm version 0.0.1 --no-git-tag-version    	-- A) Pone una version específica
+	npm run version:sync				-- B) Y luego, luego hay que Sincronizarla en los ambientes.
+	npm run release:prod  				-- C) Incrementó a 0.0.2  😁 -- OJO,---  ESTOS 3 ( A, B y C ) --  SE USAN JUNTOS
 
+	npm run version:bump:patch		--Incrementó a 0.0.2  a  0.0.3 etc
+	npm run release:prod:minor		--Incrementó a 0.0.3  a  0.1.0  ,  0.2.0 etc    
+	npm run version:bump:major		--Incrementó a 0.2.0  a  1.0.0  ,  2.0.0 
 
 
 REPOSITORIO_RegistroPersonas
@@ -157,6 +176,7 @@ NODE-JS-------------------------------  ok 24.13.1        (Version 24.0.0- Ultim
 	pm2 logs 2 --lines 6
 	pm2 save
 	pm2 resurrect
+
 
 
 NODEMON ---------------------------
@@ -340,4 +360,7 @@ DOCKER  ---------------------------------------------ok 4.61.0
 
 	Administrador de Tareas >> Rendimiento >> CPU >> Virtualizacion = Habilitado     -- Asegurar que la "VIRTUALIZACIÓN" esté HABILITADA en el equipo.
 	wsl --list --verbose	o        wsl -l -v	           --Desde CMD para saber si tengo Instalado WSL (Windows Subsystem For Linux), necesario para Docker
+
+
+
 
