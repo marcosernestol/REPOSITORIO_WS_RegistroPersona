@@ -47,7 +47,15 @@ REPOSITORIO_WS_RegistroPersona
    http://localhost:5999/api/RegistroPersona        (probar)
 
 LoginHM 
-   ng serve -o
+	ng serve -o
+	ng build  --base-href /LoginHM/
+
+	ng build --output-path=dist/loc  --configuration local   --base-href /LoginHM/			--(Este Es El Bueno !! construir para instalar en una “Ruta debajo de la raiz”)
+	ng build --output-path=dist/devS1 --configuration development  --base-href /LoginHM/
+	ng build --output-path=dist/proS2 --configuration production --base-href /LoginHM/
+
+
+
 
 REPOSITORIO_RegistroPersonas
      >go live
@@ -328,3 +336,8 @@ POSTMAN -----------------------------------------  ok11.85.1               (Vers
 
 
 DOCKER  ---------------------------------------------ok 4.61.0
+	https://www.youtube.com/watch?v=4Dko5W96WHg     --Video sobre Docker
+
+	Administrador de Tareas >> Rendimiento >> CPU >> Virtualizacion = Habilitado     -- Asegurar que la "VIRTUALIZACIÓN" esté HABILITADA en el equipo.
+	wsl --list --verbose	o        wsl -l -v	           --Desde CMD para saber si tengo Instalado WSL (Windows Subsystem For Linux), necesario para Docker
+
