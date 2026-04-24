@@ -129,6 +129,8 @@ POWER SHELL ( Usos principales ) --------------------
 
 
 GIT -----------------------------------------ok 2.31.1
+	winget install --id Git.Git -e --source winget 	(Para Instalar Git desde CMD de forma fácil)
+
 	git –-version
 	git config --global user.name "Tu nombre"	(Establecer NombreUsuario global actual)
 	git config --global user.email "Tu correo"	(Establecer E-mail global actual)
@@ -290,7 +292,7 @@ IIS  y URL Rewrite  -----------------------------------para Publicar el proyecto
 		Activar Casilla: IIS ->
 			y las sub-casillas:  Herramientas de Admon web 
 			y Servicios World Wide Web)
-		Activar Casilla: Núcleo de web hospedable de IIS 
+		Activar Casilla: Núcleo de web hospedable de IIS (IIS Hospedable Web Core )
 
 	Instalar Módulo “URL Rewrite”   	(Download desde:   https://www.iis.net/downloads/microsoft/url-rewrite )
 
