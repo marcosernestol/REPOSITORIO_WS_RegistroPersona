@@ -48,7 +48,7 @@ async function invokeOllamaAgent(req, res) {
     }
 
     const ollamaModel = process.env.OLLAMA_MODEL || 'llama3.2';
-    const baseUrl = process.env.OLLAMA_BASE_URL || 'http://127.0.0.1:11434';
+    const baseUrl = process.env.OLLAMA_BASE_URL || 'http://192.168.1.69:11434';
     const prompt = `${getSystemPrompt()}\n\nUsuario: ${message}\nAsistente:`;
     const response = await axios.post(
       `${baseUrl}/api/generate`,
